@@ -53,8 +53,8 @@ const Gallery = ({ tours, setTours, onRemove, selectedDestination, setSelectedDe
   if (tours.length === 0)
     return (
       <>
-        <h2>No Tours Left</h2>
-        <button onClick={fetchTours}>Refresh</button>
+        <h2>No tours left. Refresh to reload.</h2>
+        <button onClick={fetchTours}>Refresh</button> {/* Reload data */}
       </>
     );
 
