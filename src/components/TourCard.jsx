@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";  
 import "./TourCard.css";
 
 // Displays a single tour card with details and a remove button
